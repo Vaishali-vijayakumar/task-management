@@ -1,1 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.profile-icon {
+    background-color: #0d6efd;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.status-select {
+    width: 120px;
+    cursor: pointer;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .profile-icon {
+        width: 80px !important;
+        height: 80px !important;
+        font-size: 30px !important;
+    }
+}
